@@ -1,15 +1,14 @@
-#carrito-productos {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-  }
-  
-  #carrito-vacio {
-    text-align: center;
-    font-size: 1.5rem;
-    margin: 20px;
-  }
-  
-  .disabled {
-    display: none;
-  }
+.carrito-container {
+  margin: 20px;
+}
+
+.carrito-producto {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}

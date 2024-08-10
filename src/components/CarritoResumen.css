@@ -1,17 +1,16 @@
-#carrito-resumen {
-    border-top: 1px solid #ddd;
-    padding: 10px;
-    margin-top: 20px;
-  }
-  
-  .num-total,
-  .precio-productos-compra,
-  .carrito-resumen-precio-envio,
-  .precio-final {
-    font-size: 1.2rem;
-    margin: 10px 0;
-  }
-  
-  .precio-final {
-    font-weight: bold;
-  }
+.resumen-compra {
+  background-color: #fff;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 18px;
+  font-weight: bold;
+}

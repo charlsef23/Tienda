@@ -1,99 +1,21 @@
-.carrito-producto {
-    display: flex;
-    flex-direction: column;
-    border: 1px solid #ddd;
-    padding: 10px;
-    margin: 10px 0;
-    border-radius: 5px;
-  }
-  
-  .carrito-producto-proveedor {
-    font-weight: bold;
-    margin-bottom: 10px;
-  }
-  
-  .container-producto-img {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 10px;
-  }
-  
-  .carrito-producto-img {
-    max-width: 100px;
-    max-height: 100px;
-    object-fit: cover;
-  }
-  
-  .carrito-producto-info {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .carrito-producto-titulo {
-    font-size: 1rem;
-    font-weight: bold;
-  }
-  
-  .carrito-producto-opciones {
-    margin-left: 10px;
-  }
-  
-  .carrito-producto-eliminar {
-    background: red;
-    color: white;
-    border: none;
-    padding: 5px;
-    cursor: pointer;
-    border-radius: 3px;
-  }
-  
-  .container-selector-cantidad {
-    display: flex;
-    justify-content: center;
-    margin: 10px 0;
-  }
-  
-  .selector {
-    display: flex;
-    align-items: center;
-  }
-  
-  .restaurar-cantidad,
-  .sumar-cantidad {
-    background: #eee;
-    border: none;
-    padding: 5px;
-    cursor: pointer;
-    border-radius: 3px;
-    font-size: 1.5rem;
-  }
-  
-  .cantidad {
-    margin: 0 10px;
-    font-size: 1.2rem;
-  }
-  
-  .carrito-producto-precio {
-    font-size: 1.2rem;
-  }
-  
-  .carrito-producto-precio-envio {
-    display: flex;
-    justify-content: space-between;
-    margin: 10px 0;
-  }
-  
-  .precio-envio {
-    color: green;
-  }
-  
-  .carrito-producto-mas-info {
-    font-size: 0.9rem;
-    margin-top: 10px;
-  }
-  
-  .carrito-producto-mas-info a {
-    color: blue;
-    text-decoration: underline;
-  }
+.carrito-producto-info h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.carrito-producto-controles {
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  background-color: #ff6961;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ff5c5c;
+}
